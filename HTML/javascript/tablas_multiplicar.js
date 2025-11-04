@@ -9,19 +9,3 @@ if (numero >= 1 && numero <= 10){
     alert("Por favor, introduce un número entre 1 y 10.");
 }
 
-
-
-
-//Ejemplo alternativo con función
-function tablaMultiplicar(num) {
-    if (num < 1 || num > 10) {  
-        alert("Por favor, introduce un número entre 1 y 10.");
-        return;
-    }
-    for (let i = 1; i <= 10; i++) {
-        let resultado = num * i;
-        console.log(num + " x " + i + " = " + resultado);
-    }
-}
-let numeroUsuario = prompt("Introduce un número del 1 al 10:");
-tablaMultiplicar(Number(numeroUsuario));    
